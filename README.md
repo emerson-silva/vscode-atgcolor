@@ -17,7 +17,7 @@ Initial release of language support and grammar.
 -----------------------------------------------------------------------------------------------------------
 
 The following configuration needs to be added to the settings.json file:
-
+```json
 "editor.tokenColorCustomizations": {
     "textMateRules": [
         {
@@ -58,6 +58,6 @@ The following configuration needs to be added to the settings.json file:
         }
     ]
 }
-
+```
 -----------------------------------------------------------------------------------------------------------
 
