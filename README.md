@@ -1,5 +1,7 @@
 # atgcolor README
 
+![Sample Colorized Log File (file.out) Screenshot](/imgs/sample_image.png?raw=true "Sample Colorized Log File (file.out)")
+
 Language support to colorize .out files from ATG servers.
 
 ## Features

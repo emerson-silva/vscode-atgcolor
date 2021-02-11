@@ -2,10 +2,16 @@
 	"name": "atgout",
 	"displayName": "AtgOutColorize",
 	"description": "Colorize the log files",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"publisher": "DevEloStudios",
+	"license": "SEE LICENSE IN LICENSE",
+	"icon": "imgs/icon.png",
 	"repository": {
 		"url": "https://github.com/emerson-silva/vscode-atgcolor"
+	},
+	"bugs": {
+		"url": "https://github.com/emerson-silva/vscode-atgcolor/issues",
+		"email": "emerson.ello@hotmail.com"
 	},
 	"engines": {
 		"vscode": "^1.53.0"
