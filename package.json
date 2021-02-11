@@ -3,7 +3,10 @@
 	"displayName": "AtgOutColorize",
 	"description": "Colorize the log files",
 	"version": "0.0.1",
-	"publisher": "emerson.silva",
+	"publisher": "DevEloStudios",
+	"repository": {
+		"url": "https://github.com/emerson-silva/vscode-atgcolor"
+	},
 	"engines": {
 		"vscode": "^1.53.0"
 	},
