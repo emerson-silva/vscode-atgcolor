@@ -1,0 +1,84 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Log File",
+	"patterns": [
+		{
+			"include": "#debug"
+		},
+		{
+			"include": "#error"
+		},
+		{
+			"include": "#info"
+		},
+		{
+			"include": "#trace"
+		},
+		{
+			"include": "#warning"
+		}
+	],
+	"repository": {
+		"debug":{
+            "patterns": [
+                {
+                    "name": "debug.source.out",
+					"match": "[*]+ debug[ \\t\\S]+"
+				},
+				{
+					"name": "info.weblogic.out",
+					"match": "[ \\t\\S]+<Info>[ \\t\\S]+"
+				},
+				{
+					"name": "notice.weblogic.out",
+					"match": "[ \\t\\S]+<Notice>[ \\t\\S]+"
+				}
+			]
+		},
+		"error":{
+            "patterns": [
+                {
+                    "name": "error.source.out",
+					"match": "[*]+ Error[ \\t\\S]+"
+				},
+				{
+					"name": "critical.weblogic.out",
+					"match": "[ \\t\\S]+<Critical>[ \\t\\S]+"
+				}
+			]
+		},
+		"info":{
+            "patterns": [
+                {
+                    "name": "info.source.out",
+					"match": "[*]+ info[ \\t\\S]+"
+				}
+			]
+		},
+		"trace":{
+            "patterns": [
+                {
+                    "name": "trace.source.out",
+					"match": "[*]+ trace[ \\t\\S]+"
+				}
+			]
+		},
+		"warning":{
+            "patterns": [
+                {
+                    "name": "warning.source.out",
+					"match": "[*]+ Warning[ \\t\\S]+"
+				},
+				{
+					"name": "warning.weblogic.out",
+					"match": "[ \\t\\S]+<Warning>[ \\t\\S]+"
+				},
+				{
+					"name": "alert.weblogic.out",
+					"match": "[ \\t\\S]+<Alert>[ \\t\\S]+"
+				}
+			]
+		}
+	},
+	"scopeName": "source.out"
+}

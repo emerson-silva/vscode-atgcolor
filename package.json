@@ -1,0 +1,61 @@
+{
+	"name": "atgout",
+	"displayName": "AtgOutColorize",
+	"description": "Colorize the log files",
+	"version": "0.0.1",
+	"publisher": "emerson.silva",
+	"engines": {
+		"vscode": "^1.53.0"
+	},
+	"categories": [
+        "Programming Languages"
+    ],
+	"contributes": {
+		"languages": [
+            {
+                "id": "atgout",
+                "aliases": [
+                    "Log File",
+                    "atgout"
+                ],
+                "extensions": [
+                    ".out",
+                    "*.out*"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "atgout",
+                "scopeName": "source.out",
+                "path": "./syntaxes/atgout.tmLanguage.json",
+                "tokenTypes": {
+                    "source.out": "other"
+                }
+            }
+        ],
+		"configurationDefaults": {
+			"[atgout]": {
+                "editor.semanticHighlighting.enabled": true,
+                "editor.wordWrap": "off"
+			}
+        }
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.53.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.19.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.2.1",
+		"typescript": "^4.1.3",
+		"vscode-test": "^1.5.0"
+	}
+}
