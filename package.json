@@ -2,7 +2,7 @@
 	"name": "atgout",
 	"displayName": "AtgOutColorize",
 	"description": "Colorize the log files",
-	"version": "1.0.0",
+	"version": "0.0.2",
 	"publisher": "DevEloStudios",
 	"license": "SEE LICENSE IN LICENSE",
 	"icon": "imgs/icon.png",

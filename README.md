@@ -35,7 +35,25 @@ The following configuration needs to be added to the settings.json file:
             }
         },
         {
+            "scope": "info.weblogic.out",
+            "settings": {
+                "foreground": "#13C60D"
+            }
+        },
+        {
+            "scope": "notice.weblogic.out",
+            "settings": {
+                "foreground": "#13C60D"
+            }
+        },
+        {
             "scope": "error.source.out",
+            "settings": {
+                "foreground": "#E74856"
+            }
+        },
+        {
+            "scope": "critical.weblogic.out",
             "settings": {
                 "foreground": "#E74856"
             }
@@ -54,6 +72,12 @@ The following configuration needs to be added to the settings.json file:
         },
         {
             "scope": "warning.source.out",
+            "settings": {
+                "foreground": "#61D6D6"
+            }
+        },
+        {
+            "scope": "warning.weblogic.out",
             "settings": {
                 "foreground": "#61D6D6"
             }
