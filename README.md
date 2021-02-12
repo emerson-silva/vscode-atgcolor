@@ -1,4 +1,4 @@
-# atgcolor README
+# AtgOutColorize
 
 ![Sample Colorized Log File (file.out) Screenshot](/imgs/sample_image.png?raw=true "Sample Colorized Log File (file.out)")
 
@@ -31,7 +31,7 @@ The following configuration needs to be added to the settings.json file:
         {
             "scope": "debug.source.out",
             "settings": {
-                "foreground": "#13C60D"
+                "foreground": "#F8F8F2"
             }
         },
         {
@@ -61,7 +61,7 @@ The following configuration needs to be added to the settings.json file:
         {
             "scope": "info.source.out",
             "settings": {
-                "foreground": "#F8F8F2"
+                "foreground": "#13C60D"
             }
         },
         {
